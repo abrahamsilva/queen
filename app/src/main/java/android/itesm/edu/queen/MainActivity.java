@@ -46,6 +46,26 @@ public class MainActivity extends AppCompatActivity {
                 file = "dont";
                 goSong(file);
                 break;
+            case R.id.bicycle:
+                file = "bicycle";
+                goSong(file);
+                break;
+            case R.id.champions:
+                file = "champions";
+                goSong(file);
+                break;
+            case R.id.somebody:
+                file = "somebody";
+                goSong(file);
+                break;
+            case R.id.crazy:
+                file = "crazy";
+                goSong(file);
+                break;
+            case R.id.dust:
+                file = "dust";
+                goSong(file);
+                break;
             case R.id.random:
                 Intent intent = new Intent(this, RandomActivity.class);
                 startActivityForResult(intent, 500);

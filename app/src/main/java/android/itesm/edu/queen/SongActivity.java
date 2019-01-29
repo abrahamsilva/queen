@@ -17,10 +17,7 @@ public class SongActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.song);
 
         String string = getIntent().getStringExtra("file");
-        String file = "";
-        if(string.equals("bohemian")){
-            file = getFile("bohemian.txt");
-        }
+        String file = getFile(string + ".txt");
         textView.setText(file);
     }
     private String getFile(String assetf){

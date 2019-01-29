@@ -8,11 +8,12 @@
 
     <Button
         android:id="@+id/bohemian"
-        android:layout_width="176dp"
-        android:layout_height="242dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="51dp"
+        android:layout_width="112dp"
+        android:layout_height="124dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="@color/colorAccent"
         android:onClick="sing"
         android:text="Bohemian Rhapsody"
@@ -21,7 +22,7 @@
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dont"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -29,11 +30,12 @@
 
     <Button
         android:id="@+id/site"
-        android:layout_width="177dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="51dp"
+        android:layout_width="278dp"
+        android:layout_height="53dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
         android:background="@color/colorAccent"
         android:onClick="sing"
         android:text="site"
@@ -46,14 +48,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bohemian"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.974" />
 
     <Button
         android:id="@+id/random"
-        android:layout_width="177dp"
-        android:layout_height="51dp"
+        android:layout_width="276dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="51dp"
         android:background="@android:color/holo_green_light"
         android:onClick="sing"
         android:text="random"
@@ -63,28 +66,91 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/site"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bohemian"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/dont"
-        android:layout_width="198dp"
-        android:layout_height="255dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="109dp"
+        android:layout_height="261dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:background="@android:color/holo_blue_bright"
         android:onClick="sing"
         android:text="Dont Stop Me Now..."
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/somebody"
+        android:layout_width="125dp"
+        android:layout_height="133dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="sing"
+        android:text="Somebody To Love"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bicycle"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="240dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:onClick="sing"
+        android:text="Bicycle Race"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bohemian" />
+        app:layout_constraintTop_toTopOf="@+id/champions"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/champions"
+        android:layout_width="125dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="sing"
+        android:text="We Are The Champions"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/somebody" />
+
+    <Button
+        android:id="@+id/crazy"
+        android:layout_width="167dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:onClick="sing"
+        android:text="Crazy Little Thing Called Love"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dust" />
+
+    <Button
+        android:id="@+id/dust"
+        android:layout_width="172dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:onClick="sing"
+        android:text="Another One Bites The Dust"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/champions" />
 </android.support.constraint.ConstraintLayout>
