@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+// Abraham Armando Silva Apanco A01651490
+// Yoali Sotomayor Baqueiro A01650536
+
 public class MainActivity extends AppCompatActivity {
 
 

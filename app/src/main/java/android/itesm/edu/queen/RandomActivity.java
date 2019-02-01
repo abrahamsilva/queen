@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+// Abraham Armando Silva Apanco A01651490
+// Yoali Sotomayor Baqueiro A01650536
+
 public class RandomActivity extends AppCompatActivity {
 
     private final static String[] SONG_LIST = {

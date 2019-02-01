@@ -5,6 +5,9 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+// Abraham Armando Silva Apanco A01651490
+// Yoali Sotomayor Baqueiro A01650536
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override

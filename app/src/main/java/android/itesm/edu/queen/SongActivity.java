@@ -7,6 +7,9 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.io.InputStream;
 
+// Abraham Armando Silva Apanco A01651490
+// Yoali Sotomayor Baqueiro A01650536
+
 public class SongActivity extends AppCompatActivity {
 
     private TextView textView;
